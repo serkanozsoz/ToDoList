@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace ToDoList.Models
 {
-    public class Size
-    {
-        public enum SizeType
+    
+        public enum Size
         {
             XS=1,
             S,
@@ -16,5 +15,5 @@ namespace ToDoList.Models
             L,
             XL
         }
-    }
+    
 }

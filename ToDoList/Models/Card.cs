@@ -14,10 +14,10 @@ namespace ToDoList.Models
         public int Size { get; set; }
         public Card(string title, string content, int id, int size)
         {
-            this.Title = title;
-            this.Content = content;
-            this.Id = id;
-            this.Size = size;
+            Title = title;
+            Content = content;
+            Id = id;
+            Size = size;
         }
     }
 }
