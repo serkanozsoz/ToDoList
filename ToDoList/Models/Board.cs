@@ -15,8 +15,8 @@ namespace ToDoList.Models
         public Board()
         {
             TODO.Add(new Card("Homework", "Javascript modülünü tamamla.", 1, 1));
-            IN_PROGRESS.Add(new Card("Coderbyte Challenge", "C# Coderbyte Challege'ını çöz.", 2, 3));
-            DONE.Add(new Card("Build", "ToDoList Projesinin build'ini al.", 3, 4));
+            IN_PROGRESS.Add(new Card("Coderbyte Challenge", "C# Coderbyte Challege'ını çöz.", 2, 2));
+            DONE.Add(new Card("Build", "ToDoList Projesinin build'ini al.", 3, 3));
         }
          
         public List<Card> GetProperty(string str)

@@ -64,7 +64,7 @@ namespace ToDoList
             Console.WriteLine("*********************");
 
             if (_board.IN_PROGRESS.Count > 0)
-                printLine(_board.TODO, _members);
+                printLine(_board.IN_PROGRESS, _members);
             else
                 Console.WriteLine("~BOŞ~");
             /////////////////////////////////////////////////
@@ -76,6 +76,7 @@ namespace ToDoList
                 Console.WriteLine("~BOŞ~");
 
         }
+
 
         //Kolanları yazdıran Metot
         public static void printLine(List<Card> col, MemberList members)
