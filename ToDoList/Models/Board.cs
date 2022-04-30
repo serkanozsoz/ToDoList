@@ -18,7 +18,7 @@ namespace ToDoList.Models
             IN_PROGRESS.Add(new Card("Coderbyte Challenge", "C# Coderbyte Challege'ını çöz.", 2, 3));
             DONE.Add(new Card("Build", "ToDoList Projesinin build'ini al.", 3, 4));
         }
-
+         
         public List<Card> GetProperty(string str)
         {
             if (str == "TODO")
