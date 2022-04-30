@@ -41,9 +41,9 @@ namespace ToDoList
                 case 3:
                     removeCard();
                     break;
-                //case 4:
-                //    moveCard();
-                //    break;
+                case 4:
+                    moveCard();
+                    break;
                 default:
                     Console.WriteLine("Geçersiz seçim yaptınız!");
                     break;
